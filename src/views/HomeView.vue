@@ -1,9 +1,9 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup></script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h3>Welcome to</h3>
+    <h1>Dryclean Super Center</h1>
+    <p>Our website is comming soon!</p>
   </main>
 </template>
