@@ -7,3 +7,5 @@
     <p>Our website is comming soon!</p>
   </main>
 </template>
+
+<style scoped></style>
