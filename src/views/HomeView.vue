@@ -1,10 +1,10 @@
-<script setup></script>
+<script setup>
+import HeroSection from '@/components/HeroSection.vue'
+</script>
 
 <template>
-  <main>
-    <h3>Welcome to</h3>
-    <h1>Dryclean Super Center</h1>
-    <p>Our website is comming soon!</p>
+  <main class="prose lg:prose-xl">
+    <HeroSection />
   </main>
 </template>
 
