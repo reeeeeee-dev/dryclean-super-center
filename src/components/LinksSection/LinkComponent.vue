@@ -5,7 +5,7 @@ defineProps(['title', 'icon'])
 <template>
   <div class="text-center w-full flex flex-col gap-4">
     <i class="pi text-9xl" :class="icon" />
-    <h1 class="text-6xl">{{ title }}</h1>
+    <h1 class="text-4xl">{{ title }}</h1>
     <slot />
   </div>
 </template>
