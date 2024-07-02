@@ -12,7 +12,7 @@
         <kinesis-element :strength="10" type="depth">
           <img
             src="/blankets.jpg"
-            class="object-cover rounded-full max-h-[70vh] w-[70vh] aspect-square"
+            class="border-2 object-cover rounded-full max-h-[70vh] w-[70vh] aspect-square"
           />
         </kinesis-element>
       </kinesis-container>
