@@ -2399,6 +2399,11 @@ vue-eslint-parser@^9.4.2:
     lodash "^4.17.21"
     semver "^7.3.6"
 
+vue-kinesis@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/vue-kinesis/-/vue-kinesis-2.0.5.tgz#48b68861d6dc50c256cd811fb5bad0203c439dea"
+  integrity sha512-uO2lG9A/L4I9KvyJuUzAkAWqd37In/kWxQ6rZ3/heJZ8+7rHAbBO5Knz6xG+cpO+9Q4cYurxXsPfWM6e7X9E3Q==
+
 vue-router@^4.3.3:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.4.0.tgz#128e3fc0c84421035a9bd26027245e6bd68f69ab"
