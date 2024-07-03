@@ -2,6 +2,7 @@
 import HeroSection from '@/components/HeroSection.vue'
 import LinksSection from '@/components/LinksSection/LinksSection.vue'
 import AdditionalServicesSection from '@/components/AdditionalServicesSection.vue'
+import GetStartedBanner from '@/components/GetStartedBanner.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import AdditionalServicesSection from '@/components/AdditionalServicesSection.vu
     <HeroSection />
     <LinksSection />
     <AdditionalServicesSection />
+    <GetStartedBanner />
   </main>
 </template>
 
