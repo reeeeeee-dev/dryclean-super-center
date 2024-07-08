@@ -1,5 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
+import FooterSection from '@/components/FooterSection.vue'
 </script>
 
 <template>
@@ -31,7 +32,13 @@ import { RouterView } from 'vue-router'
     </div>
   </header>
 
-  <RouterView />
+  <RouterView class="main" />
+
+  <FooterSection />
 </template>
 
-<style scoped></style>
+<style scoped>
+.main {
+  min-height: calc(100vh - 428px /* Footer */ - 64px /* Header */);
+}
+</style>
