@@ -18,9 +18,7 @@ const reviews = [
 </script>
 
 <template>
-  <!-- TODO: Add Parallax -->
-  <img class="absolute -z-10 overflow-hidden h-96 w-full object-cover" src="/fabric.jpg" />
-  <div class="p-16 pb-24">
+  <div class="p-16 pb-24 bg-[url('/fabric.jpg')] bg-cover" v-prlx.background="{ fromBottom: true }">
     <h1 class="text-6xl mb-16">Hear from our customers</h1>
     <div class="w-96 m-auto">
       <carousel :items-to-show="1">

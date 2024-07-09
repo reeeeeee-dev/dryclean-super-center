@@ -16,7 +16,8 @@
     "vue": "^3.4.29",
     "vue-kinesis": "^2.0.5",
     "vue-router": "^4.3.3",
-    "vue3-carousel": "^0.3.3"
+    "vue3-carousel": "^0.3.3",
+    "vue3-prlx": "^0.1.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
