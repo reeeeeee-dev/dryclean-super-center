@@ -15,10 +15,9 @@ const roughMidpoint = { lat: 35.026005785199175, lng: -89.82968555807594 }
     <div class="mb-16">
       <h1 class="text-7xl mb-4">Two Convenient Locations</h1>
       <p class="max-w-prose">
-        TODO: Pariatur fugiat consectetur deserunt voluptate. Fugiat adipisicing elit voluptate non
-        et aliqua cillum et sunt sint aliquip reprehenderit. Occaecat et pariatur nisi aliqua nulla
-        ex elit commodo velit dolor nisi tempor Lorem ex. Anim officia exercitation aute consequat
-        commodo minim dolore laboris.
+        At Dry Clean Super Center, we understand the importance of convenience in your busy life.
+        That’s why we offer two easily accessible locations in Memphis to serve you better. No
+        matter where you are in the city, you’re never far from exceptional dry cleaning services.
       </p>
     </div>
 
