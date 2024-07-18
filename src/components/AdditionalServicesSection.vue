@@ -16,7 +16,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=2" />
-            <span>Dry Cleaning</span>
+            <span>Tailoring</span>
           </div>
         </kinesis-element>
       </kinesis-container>
@@ -24,7 +24,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=3" />
-            <span>Dry Cleaning</span>
+            <span>Wash, Dry, Fold Laundry Service</span>
           </div>
         </kinesis-element>
       </kinesis-container>
@@ -32,7 +32,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=4" />
-            <span>Dry Cleaning</span>
+            <span>Wedding & Formalwear</span>
           </div>
         </kinesis-element>
       </kinesis-container>
@@ -40,7 +40,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=5" />
-            <span>Dry Cleaning</span>
+            <span>Bedding</span>
           </div>
         </kinesis-element>
       </kinesis-container>
@@ -48,7 +48,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=6" />
-            <span>Dry Cleaning</span>
+            <span>Linens</span>
           </div>
         </kinesis-element>
       </kinesis-container>
@@ -56,7 +56,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=7" />
-            <span>Dry Cleaning</span>
+            <span>Shirts</span>
           </div>
         </kinesis-element>
       </kinesis-container>
@@ -64,7 +64,7 @@
         <kinesis-element :strength="10" type="depth">
           <div class="text-4xl flex flex-col gap-4 items-center">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=8" />
-            <span>Dry Cleaning</span>
+            <span>Uniforms & Lab Coats</span>
           </div>
         </kinesis-element>
       </kinesis-container>

@@ -8,13 +8,13 @@
     <div class="flex flex-col gap-2">
       <h5 class="text-2xl mb-3">Services</h5>
       <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
+      <a>Tailoring</a>
+      <a>Wash, Dry, Fold Laundry Service</a>
+      <a>Wedding & Formalwear</a>
+      <a>Bedding</a>
+      <a>Linens</a>
+      <a>Uniforms & Lab Coats</a>
+      <a>Shirts</a>
     </div>
     <div class="flex flex-col gap-2">
       <h5 class="text-2xl mb-3">Why Dry Clean Super Center?</h5>
