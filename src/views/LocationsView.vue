@@ -7,7 +7,7 @@ const colliervilleMarker = {
 const southavenMarker = {
   position: { lat: 34.964451578835465, lng: -89.92062262709256 }
 }
-const roughMidpoint = { lat: 35.026005785199175, lng: -89.82968555807594 }
+const midpoint = { lat: 35.00908555089262, lng: -89.80614784810165 }
 </script>
 
 <template>
@@ -67,7 +67,7 @@ const roughMidpoint = { lat: 35.026005785199175, lng: -89.82968555807594 }
 
     <br class="my-16" />
 
-    <GoogleMap class="h-96 w-full" :zoom="11" :center="roughMidpoint" :api-key="MAPS_API_KEY">
+    <GoogleMap class="h-96 w-full" :zoom="11" :center="midpoint" :api-key="MAPS_API_KEY">
       <Marker :options="colliervilleMarker" />
       <Marker :options="southavenMarker" />
     </GoogleMap>
