@@ -1,10 +1,14 @@
 <script setup>
 import LinkComponent from '@/components/LinksSection/LinkComponent.vue'
+import CTAButton from '@/components/CTAButton.vue'
 </script>
 
 <template>
   <div class="bg-dark p-12 flex flex-row align-middle justify-evenly text-center w-screen">
-    <LinkComponent title="Locations" icon="pi-map">2 Convenient Locations</LinkComponent>
+    <LinkComponent title="Locations" icon="pi-map">
+      2 Convenient Locations
+      <CTAButton class="w-max self-center">Find Us →</CTAButton>
+    </LinkComponent>
     <LinkComponent class="border-l-2" title="Pickup & Delivery" icon="pi-truck">
       Stuff
     </LinkComponent>
