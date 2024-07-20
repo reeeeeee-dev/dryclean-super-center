@@ -25,7 +25,6 @@
       <a>Dry Cleaning</a>
       <a>Dry Cleaning</a>
       <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
     </div>
     <div class="flex flex-col gap-2 self-center text-center">
       <h1 class="text-4xl">Dry Clean Super Center</h1>
