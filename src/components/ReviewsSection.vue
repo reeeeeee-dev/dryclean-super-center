@@ -21,7 +21,7 @@ const reviews = [
   <div class="p-16 pb-24 bg-[url('/fabric.jpg')] bg-cover" v-prlx.background="{ fromBottom: true }">
     <h1 class="text-6xl mb-16">Hear from our customers</h1>
     <div class="w-96 m-auto">
-      <carousel :items-to-show="1">
+      <carousel wrap-around pause-autoplay-on-hover :items-to-show="1" autoplay="5000">
         <Slide class="max-w-96" v-for="slide in reviews" :key="slide">
           <div class="text-left">
             <p>{{ slide.text }}</p>
