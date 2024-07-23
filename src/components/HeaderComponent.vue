@@ -22,7 +22,7 @@ const links = [
 <template>
   <header class="z-50 m-8 bg-[var(--dark)] rounded-full">
     <nav class="flex justify-between items-center fade-in px-8 text-[var(--light)] h-16">
-      <h1 class="float-start">Dry Clean Super Center</h1>
+      <h1 class="float-start font-bold text-xl">Dry Clean Super Center</h1>
       <div>
         <RouterLink
           v-for="route in links"

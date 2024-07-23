@@ -1,6 +1,6 @@
 <template>
   <div class="m-16 text-center">
-    <h1 class="text-7xl">Our Services</h1>
+    <h1 class="text-7xl font-bold">Our Services</h1>
     <h4 class="mt-8 text-4xl">Let our experts take care of all your garmet cleaning needs!</h4>
 
     <div class="mt-32 grid grid-cols-4 gap-y-24">

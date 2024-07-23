@@ -21,7 +21,7 @@
       <a>Shirts</a>
     </div>
     <div class="flex flex-col gap-2 self-center text-center">
-      <h1 class="text-4xl">Dry Clean Super Center</h1>
+      <h1 class="text-4xl font-bold">Dry Clean Super Center</h1>
       <p>© {{ new Date().getFullYear() }} Dry Clean Super Center.</p>
       <p>All Rights Reserved.</p>
       <div>

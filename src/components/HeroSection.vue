@@ -4,7 +4,7 @@
   <div class="flex flex-row gap-40 p-16 items-center">
     <img class="absolute top-[10vh] left-0 w-screen -z-10 blur-[100px]" src="/bubble.jpg" />
     <div class="w-[50%]">
-      <h1 class="text-9xl">Dryclean Super Center</h1>
+      <h1 class="text-9xl font-bold">Dry&nbsp;Clean Super Center</h1>
       <h4 class="mt-6 text-xl">Dry all your worries away</h4>
     </div>
     <div class="w-[50%] flex justify-center">
