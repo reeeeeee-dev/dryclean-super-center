@@ -4,9 +4,13 @@
       <RouterLink to="/locations"><i class="pi pi-map-marker" />&nbsp;&nbsp;Locations</RouterLink>
       <a><i class="pi pi-phone" />&nbsp;&nbsp;Call</a>
       <a><i class="pi pi-envelope" />&nbsp;&nbsp;Email</a>
+      <br />
+      <div class="text-base">
+        <RouterLink to="/about">Learn More About Us</RouterLink>
+      </div>
     </div>
     <div class="flex flex-col gap-2">
-      <h5 class="text-2xl mb-3">Services</h5>
+      <RouterLink class="text-2xl mb-3" to="/services">Services</RouterLink>
       <a>Dry Cleaning</a>
       <a>Tailoring</a>
       <a>Wash, Dry, Fold Laundry Service</a>
@@ -15,16 +19,6 @@
       <a>Linens</a>
       <a>Uniforms & Lab Coats</a>
       <a>Shirts</a>
-    </div>
-    <div class="flex flex-col gap-2">
-      <h5 class="text-2xl mb-3">Why Dry Clean Super Center?</h5>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
-      <a>Dry Cleaning</a>
     </div>
     <div class="flex flex-col gap-2 self-center text-center">
       <h1 class="text-4xl">Dry Clean Super Center</h1>
