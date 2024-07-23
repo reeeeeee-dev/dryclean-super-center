@@ -6,12 +6,26 @@ import FooterSection from '@/components/FooterSection.vue'
 
 <template>
   <HeaderComponent />
-  <RouterView class="main" />
+  <router-view v-slot="{ Component }">
+    <Transition>
+      <component class="main" :is="Component" />
+    </Transition>
+  </router-view>
   <FooterSection />
 </template>
 
 <style scoped>
 .main {
   min-height: calc(100vh - 428px /* Footer */ - 64px /* Header */);
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>
