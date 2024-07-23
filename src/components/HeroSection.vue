@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="flex flex-row gap-40 w-screen p-16 items-center">
+  <div class="flex flex-row gap-40 p-16 items-center">
     <img class="absolute top-[10vh] left-0 w-screen -z-10 blur-[100px]" src="/bubble.jpg" />
     <div class="w-[50%]">
       <h1 class="text-9xl">Dryclean Super Center</h1>
