@@ -5,68 +5,68 @@
 
     <div class="mt-32 grid grid-cols-4 gap-y-24">
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full border" src="https://picsum.photos/200?seed=1" />
-            <span>Dry Cleaning</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Dry Cleaning</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=2" />
-            <span>Tailoring</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Tailoring</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=3" />
-            <span>Wash, Dry, Fold Laundry Service</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Wash, Dry, Fold Laundry Service</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=4" />
-            <span>Wedding & Formalwear</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Wedding & Formalwear</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=5" />
-            <span>Bedding</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Bedding</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=6" />
-            <span>Linens</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Linens</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=7" />
-            <span>Shirts</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Shirts</span>
+        </div>
       </kinesis-container>
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
-          <div class="text-4xl flex flex-col gap-4 items-center">
+        <div class="text-4xl flex flex-col gap-4 items-center">
+          <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full" src="https://picsum.photos/200?seed=8" />
-            <span>Uniforms & Lab Coats</span>
-          </div>
-        </kinesis-element>
+          </kinesis-element>
+          <span>Uniforms & Lab Coats</span>
+        </div>
       </kinesis-container>
     </div>
   </div>

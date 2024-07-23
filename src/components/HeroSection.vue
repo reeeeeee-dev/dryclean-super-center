@@ -9,7 +9,7 @@
     </div>
     <div class="w-[50%] flex justify-center">
       <kinesis-container>
-        <kinesis-element :strength="10" type="depth">
+        <kinesis-element :strength="5" type="depth">
           <img
             src="/blankets.jpg"
             class="border-2 object-cover rounded-full max-h-[70vh] w-[70vh] aspect-square"
