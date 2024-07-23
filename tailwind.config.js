@@ -5,6 +5,9 @@ export default {
   plugins: [],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Quicksand', 'sans-serif']
+      },
       colors: {
         primary: 'rgb(var(--primary))',
         'primary-inverse': 'rgb(var(--primary-inverse))',
