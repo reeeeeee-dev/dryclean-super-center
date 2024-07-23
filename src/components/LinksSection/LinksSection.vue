@@ -4,7 +4,7 @@ import CTAButton from '@/components/CTAButton.vue'
 </script>
 
 <template>
-  <div class="bg-dark p-12 flex flex-row align-middle justify-evenly text-center">
+  <div class="m-8 rounded-3xl bg-dark p-12 flex flex-row align-middle justify-evenly text-center">
     <LinkComponent title="Locations" icon="pi-map">
       2 Convenient Locations
       <CTAButton class="w-max self-center">Find Us →</CTAButton>

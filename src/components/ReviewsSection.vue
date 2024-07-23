@@ -18,7 +18,10 @@ const reviews = [
 </script>
 
 <template>
-  <div class="p-16 pb-24 bg-[url('/fabric.jpg')] bg-cover" v-prlx.background="{ fromBottom: true }">
+  <div
+    class="m-8 rounded-3xl p-16 pb-24 bg-[url('/fabric.jpg')] bg-cover"
+    v-prlx.background="{ fromBottom: true }"
+  >
     <h1 class="text-5xl font-bold mb-16">Hear from our customers</h1>
     <div class="w-96 m-auto">
       <carousel wrap-around pause-autoplay-on-hover :items-to-show="1" autoplay="5000">

@@ -1,5 +1,5 @@
 <template>
-  <footer class="h-[428] bg-[var(--dark)] text-white flex justify-evenly p-16">
+  <footer class="bg-[var(--dark)] text-white flex justify-evenly p-16">
     <div class="flex flex-col gap-4 text-2xl">
       <RouterLink to="/locations"><i class="pi pi-map-marker" />&nbsp;&nbsp;Locations</RouterLink>
       <a><i class="pi pi-phone" />&nbsp;&nbsp;Call</a>
