@@ -22,9 +22,9 @@ const links = [
 <template>
   <header class="z-50 m-8 bg-[var(--primary)] rounded-full">
     <nav class="flex justify-between items-center fade-in pr-8 text-[var(--light)] h-16">
-      <div class="bg-[var(--light)] rounded-full h-full px-16 ml-[-1px]">
+      <RouterLink to="/" class="bg-[var(--light)] rounded-full h-full px-16 ml-[-1px]">
         <img src="/logo.svg" class="h-full p-2" />
-      </div>
+      </RouterLink>
       <div>
         <RouterLink
           v-for="route in links"
