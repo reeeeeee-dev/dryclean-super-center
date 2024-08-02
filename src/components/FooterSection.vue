@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[var(--dark)] text-white flex justify-evenly p-16">
+  <footer class="bg-dark flex justify-evenly p-16">
     <div class="flex flex-col gap-4 text-2xl">
       <RouterLink to="/locations"><i class="pi pi-map-marker" />&nbsp;&nbsp;Locations</RouterLink>
       <a><i class="pi pi-phone" />&nbsp;&nbsp;Call</a>
@@ -21,7 +21,7 @@
       <a>Shirts</a>
     </div>
     <div class="flex flex-col gap-2 self-center text-center">
-      <h1 class="text-4xl font-bold">Dry Clean Super Center</h1>
+      <img src="/logo.svg" class="h-32 mb-8" />
       <p>© {{ new Date().getFullYear() }} Dry Clean Super Center.</p>
       <p>All Rights Reserved.</p>
       <div>
