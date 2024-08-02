@@ -1,42 +1,42 @@
 <script setup>
 const services = [
   {
-    text: 'Dry Cleaning',
+    title: 'Dry Cleaning',
     img: 'https://picsum.photos/200?seed=1',
     link: '/'
   },
   {
-    text: 'Tailoring',
+    title: 'Tailoring',
     img: 'https://picsum.photos/200?seed=2',
     link: '/'
   },
   {
-    text: 'Wash, Dry, Fold Laundry Service',
+    title: 'Wash, Dry, Fold Laundry Service',
     img: 'https://picsum.photos/200?seed=3',
     link: '/'
   },
   {
-    text: 'Wedding & Formalwear',
+    title: 'Wedding & Formalwear',
     img: 'https://picsum.photos/200?seed=4',
     link: '/'
   },
   {
-    text: 'Bedding',
+    title: 'Bedding',
     img: 'https://picsum.photos/200?seed=5',
     link: '/'
   },
   {
-    text: 'Linens',
+    title: 'Linens',
     img: 'https://picsum.photos/200?seed=6',
     link: '/'
   },
   {
-    text: 'Shirts',
+    title: 'Shirts',
     img: 'https://picsum.photos/200?seed=7',
     link: '/'
   },
   {
-    text: 'Uniforms & Lab Coats',
+    title: 'Uniforms & Lab Coats',
     img: 'https://picsum.photos/200?seed=8',
     link: '/'
   }
@@ -44,9 +44,9 @@ const services = [
 </script>
 
 <template>
-  <div class="m-16 text-center">
+  <div class="m-8 p-8 text-center bg-dark shadow-lg rounded-3xl">
     <h1 class="text-7xl font-bold">Our Services</h1>
-    <h4 class="mt-8 text-4xl">Let our experts take care of all your garmet cleaning needs!</h4>
+    <h4 class="mt-8 text-3xl font-light">Let our experts take care of all your garmet needs!</h4>
 
     <div class="mt-32 grid grid-cols-4 gap-y-24">
       <kinesis-container v-for="service in services" :key="service.text">
@@ -54,7 +54,7 @@ const services = [
           <kinesis-element :strength="10" type="depth">
             <img class="size-32 rounded-full border" :src="service.img" />
           </kinesis-element>
-          <span>{{ service.text }}</span>
+          <span>{{ service.title }}</span>
         </div>
       </kinesis-container>
     </div>

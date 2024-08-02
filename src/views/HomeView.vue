@@ -1,7 +1,7 @@
 <script setup>
 import HeroSection from '@/components/HeroSection.vue'
 import LinksSection from '@/components/LinksSection/LinksSection.vue'
-import AdditionalServicesSection from '@/components/AdditionalServicesSection.vue'
+import ServicesSection from '@/components/ServicesSection.vue'
 import GetStartedBanner from '@/components/GetStartedBanner.vue'
 import ReviewsSection from '@/components/ReviewsSection.vue'
 </script>
@@ -9,8 +9,8 @@ import ReviewsSection from '@/components/ReviewsSection.vue'
 <template>
   <main class="">
     <HeroSection />
+    <ServicesSection />
     <LinksSection />
-    <AdditionalServicesSection />
     <GetStartedBanner />
     <ReviewsSection />
   </main>
