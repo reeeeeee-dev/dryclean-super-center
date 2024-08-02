@@ -6,9 +6,10 @@
 
 body {
   background: var(--light);
+  color: var(--dark);
 }
 
 .bg-dark {
   background: var(--dark);
-  color: var(--white);
+  color: var(--light);
 }
