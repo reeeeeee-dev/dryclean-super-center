@@ -51,7 +51,7 @@ const services = [
     <div class="mt-32 grid grid-cols-4 gap-y-24">
       <kinesis-container v-for="service in services" :key="service.text">
         <div class="text-4xl flex flex-col gap-4 items-center">
-          <kinesis-element :strength="10" type="depth">
+          <kinesis-element strength="-10" type="rotate">
             <img class="size-32 rounded-full border" :src="service.img" />
           </kinesis-element>
           <span>{{ service.title }}</span>

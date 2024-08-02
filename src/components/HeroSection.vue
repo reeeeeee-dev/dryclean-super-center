@@ -15,7 +15,7 @@ import CTAButton from './CTAButton.vue'
     </div>
     <div class="flex justify-center">
       <kinesis-container>
-        <kinesis-element :strength="5" type="depth">
+        <kinesis-element :strength="5" type="rotate">
           <img src="/logo.svg" class="object-contain w-[30vw]" />
         </kinesis-element>
       </kinesis-container>
