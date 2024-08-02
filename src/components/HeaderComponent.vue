@@ -20,9 +20,11 @@ const links = [
 </script>
 
 <template>
-  <header class="z-50 m-8 bg-[var(--dark)] rounded-full">
-    <nav class="flex justify-between items-center fade-in px-8 text-[var(--light)] h-16">
-      <h1 class="float-start font-bold text-xl">Dry Clean Super Center</h1>
+  <header class="z-50 m-8 bg-[var(--primary)] rounded-full">
+    <nav class="flex justify-between items-center fade-in pr-8 text-[var(--light)] h-16">
+      <div class="bg-[var(--light)] rounded-full h-full px-16 ml-[-1px]">
+        <img src="/logo.svg" class="h-full p-2" />
+      </div>
       <div>
         <RouterLink
           v-for="route in links"
