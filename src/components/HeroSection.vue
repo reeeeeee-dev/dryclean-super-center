@@ -4,10 +4,6 @@ import CTAButton from './CTAButton.vue'
 
 <template>
   <div class="flex flex-row gap-40 p-16 items-center justify-evenly h-[50vh]">
-    <div
-      class="absolute top-0 left-0 w-screen -z-10 mask h-screen bg-[url('/iron.jpg')] bg-cover"
-      v-prlx.background="{ fromBottom: true }"
-    />
     <div class="flex flex-col gap-4">
       <h3 class="mt-6 text-4xl font-bold">For all your dry cleaning needs</h3>
       <h5>Pickup & Delivery Service - 2 Convenient Locations</h5>

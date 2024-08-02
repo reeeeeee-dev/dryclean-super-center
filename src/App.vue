@@ -6,6 +6,10 @@ import FooterSection from '@/components/FooterSection.vue'
 
 <template>
   <HeaderComponent />
+  <div
+    class="mask absolute top-0 left-0 w-screen -z-10 mask h-screen bg-[url('/iron.jpg')] bg-cover"
+    v-prlx.background="{ fromBottom: true }"
+  />
   <router-view v-slot="{ Component }">
     <Transition>
       <component class="main" :is="Component" />
@@ -17,6 +21,10 @@ import FooterSection from '@/components/FooterSection.vue'
 <style scoped>
 .main {
   min-height: calc(100vh - 428px /* Footer */ - 64px /* Header */);
+}
+
+.mask {
+  mask-image: linear-gradient(to bottom, black, transparent);
 }
 
 .v-enter-active,
