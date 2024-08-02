@@ -1,21 +1,27 @@
-<script setup></script>
+<script setup>
+import CTAButton from './CTAButton.vue'
+</script>
 
 <template>
-  <div class="flex flex-row gap-40 p-16 items-center">
-    <img class="absolute top-[10vh] left-0 w-screen -z-10 blur-[100px]" src="/bubble.jpg" />
-    <div class="w-[50%]">
-      <h1 class="text-9xl font-bold">Dry&nbsp;Clean Super Center</h1>
-      <h4 class="mt-6 text-xl">Dry all your worries away</h4>
+  <div class="flex flex-row gap-40 p-16 items-center justify-evenly h-[50vh]">
+    <img class="absolute top-0 left-0 w-screen -z-10 mask" src="/iron.jpg" />
+    <div class="flex flex-col gap-4">
+      <h3 class="mt-6 text-4xl font-bold">For all your dry cleaning needs</h3>
+      <h5>Pickup & Delivery Service - 2 Convenient Locations</h5>
+      <CTAButton class="w-max">Find Us →</CTAButton>
     </div>
-    <div class="w-[50%] flex justify-center">
+    <div class="flex justify-center">
       <kinesis-container>
         <kinesis-element :strength="5" type="depth">
-          <img
-            src="/blankets.jpg"
-            class="border-2 object-cover rounded-full max-h-[70vh] w-[70vh] aspect-square"
-          />
+          <img src="/logo.svg" class="object-contain w-[30vw]" />
         </kinesis-element>
       </kinesis-container>
     </div>
   </div>
 </template>
+
+<style scoped>
+.mask {
+  mask-image: linear-gradient(to bottom, black, transparent);
+}
+</style>
