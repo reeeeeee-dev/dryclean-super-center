@@ -3,16 +3,16 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 const reviews = [
   {
-    author: 'John Smith',
-    text: 'hello'
+    author: 'John',
+    text: 'Very courteous and professional staff and especially Barbara! Love the automation and the text notification that your clothes are ready! My clothes were ready as promised!'
   },
   {
-    author: 'John Smith',
-    text: 'hello'
+    author: 'Sean',
+    text: "This is an awesome cleaner. I'm so glad I found it.  Never had any problems with the people or service.  I would recommend them to everyone."
   },
   {
-    author: 'John Smith',
-    text: 'hello'
+    author: 'Katie',
+    text: 'Great customer service, quick turnaround and easy to drop off and pick up. Highly recommend!'
   }
 ]
 </script>
