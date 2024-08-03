@@ -2,7 +2,6 @@
   <footer class="bg-dark flex justify-evenly p-16">
     <div class="flex flex-col gap-4 text-2xl">
       <RouterLink to="/locations"><i class="pi pi-map-marker" />&nbsp;&nbsp;Locations</RouterLink>
-      <a><i class="pi pi-phone" />&nbsp;&nbsp;Call</a>
       <a><i class="pi pi-envelope" />&nbsp;&nbsp;Email</a>
       <br />
       <div class="text-base">

@@ -7,7 +7,9 @@ import CTAButton from '@/components/CTAButton.vue'
   <div class="m-8 rounded-3xl bg-dark p-12 flex flex-row align-middle justify-evenly text-center">
     <LinkComponent title="Locations" icon="pi-map">
       2 Convenient Locations
-      <CTAButton class="w-max self-center">Find Us →</CTAButton>
+      <RouterLink to="/locations">
+        <CTAButton class="w-max self-center">Find Us →</CTAButton>
+      </RouterLink>
     </LinkComponent>
     <LinkComponent class="border-l-2" title="Pickup & Delivery" icon="pi-truck">
       Stuff

@@ -7,7 +7,9 @@ import CTAButton from './CTAButton.vue'
     <div class="flex flex-col gap-4">
       <h3 class="mt-6 text-4xl font-bold">For all your dry cleaning needs</h3>
       <h5>Pickup & Delivery Service - 2 Convenient Locations</h5>
-      <CTAButton class="w-max">Find Us →</CTAButton>
+      <RouterLink to="/locations">
+        <CTAButton class="w-max">Find Us →</CTAButton>
+      </RouterLink>
     </div>
     <div class="flex justify-center">
       <kinesis-container>
