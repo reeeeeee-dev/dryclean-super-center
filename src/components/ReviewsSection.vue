@@ -23,20 +23,24 @@ const reviews = [
     v-prlx.background="{ fromBottom: true }"
   >
     <h1 class="text-5xl font-bold mb-16">Hear from our customers</h1>
-    <div class="m-auto">
-      <carousel wrap-around pause-autoplay-on-hover :items-to-show="1" autoplay="5000">
-        <Slide class="" v-for="slide in reviews" :key="slide">
-          <div class="text-left mx-24">
-            <p>{{ slide.text }}</p>
-            <em>- {{ slide.author }}</em>
-          </div>
-        </Slide>
+    <carousel
+      wrap-around
+      pause-autoplay-on-hover
+      :items-to-show="1"
+      autoplay="5000"
+      class="max-w-[956px] m-auto"
+    >
+      <Slide class="" v-for="slide in reviews" :key="slide">
+        <div class="text-left mx-24 max-w-prose">
+          <p>{{ slide.text }}</p>
+          <em>- {{ slide.author }}</em>
+        </div>
+      </Slide>
 
-        <template #addons>
-          <Navigation />
-          <Pagination />
-        </template>
-      </carousel>
-    </div>
+      <template #addons>
+        <Navigation />
+        <Pagination />
+      </template>
+    </carousel>
   </div>
 </template>
