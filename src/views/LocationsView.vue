@@ -21,7 +21,7 @@ const midpoint = { lat: 35.00908555089262, lng: -89.80614784810165 }
       </p>
     </div>
 
-    <div class="flex">
+    <div class="flex p-16">
       <div class="flex flex-col gap-3">
         <h3 class="text-3xl">Collierville</h3>
         <a href="tel:9018535540" class="text-xl hover:underline hover:cursor-pointer">
@@ -44,7 +44,7 @@ const midpoint = { lat: 35.00908555089262, lng: -89.80614784810165 }
 
     <hr class="border border-dashed border-[var(--secondary)] my-16" />
 
-    <div class="flex">
+    <div class="flex p-16">
       <div class="flex flex-col gap-3">
         <h3 class="text-3xl">Southaven</h3>
         <a href="tel:6628938142" class="text-xl hover:underline hover:cursor-pointer">
