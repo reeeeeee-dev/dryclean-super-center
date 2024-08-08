@@ -49,6 +49,11 @@ const router = createRouter({
       path: '/laundry',
       name: 'Laundry',
       component: () => import('@/views/LaundryView.vue')
+    },
+    {
+      path: '/formalwear',
+      name: 'Wedding & Formalwear',
+      component: () => import('@/views/FormalwearView.vue')
     }
   ]
 })

@@ -18,7 +18,7 @@ const services = [
   {
     title: 'Wedding & Formalwear',
     img: 'https://picsum.photos/200?seed=4',
-    link: '/'
+    link: '/formalwear'
   },
   {
     title: 'Bedding',
