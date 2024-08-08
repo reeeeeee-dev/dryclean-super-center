@@ -3,7 +3,7 @@ const services = [
   {
     title: 'Dry Cleaning',
     img: 'https://picsum.photos/200?seed=1',
-    link: '/'
+    link: '/dry-cleaning'
   },
   {
     title: 'Tailoring',

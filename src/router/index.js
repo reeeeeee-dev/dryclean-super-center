@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    // Main pages
     {
       path: '/',
       name: 'home',
@@ -31,6 +32,13 @@ const router = createRouter({
       path: '/legal',
       name: 'Legal',
       component: () => import('@/views/LegalView.vue')
+    },
+
+    //Content pages
+    {
+      path: '/dry-cleaning',
+      name: 'Dry Cleaning',
+      component: () => import('@/views/DryCleaningView.vue')
     }
   ]
 })
