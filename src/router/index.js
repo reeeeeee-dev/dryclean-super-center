@@ -39,6 +39,11 @@ const router = createRouter({
       path: '/dry-cleaning',
       name: 'Dry Cleaning',
       component: () => import('@/views/DryCleaningView.vue')
+    },
+    {
+      path: '/tailoring',
+      name: 'Tailoring',
+      component: () => import('@/views/TailoringView.vue')
     }
   ]
 })

@@ -8,7 +8,7 @@ const services = [
   {
     title: 'Tailoring',
     img: 'https://picsum.photos/200?seed=2',
-    link: '/'
+    link: '/tailoring'
   },
   {
     title: 'Wash, Dry, Fold Laundry Service',

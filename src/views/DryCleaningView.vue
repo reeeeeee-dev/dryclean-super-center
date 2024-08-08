@@ -16,7 +16,7 @@ import CloserSection from '@/components/CloserSection.vue'
     <br />
 
     <h3 class="text-2xl mb-4">Our Process</h3>
-    <ol class="">
+    <ol>
       <li>
         <h5 class="font-bold mt-4">1. Detailed Inspection</h5>
         <p>
