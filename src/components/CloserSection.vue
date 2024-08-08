@@ -6,10 +6,13 @@
       advantage of our pick-up and delivery service. Your clothes deserve the best care, and we are
       here to provide it.
     </p>
+    <br />
     <p>
       For more information or to schedule a service, please visit our
-      <RouterLink to="/locations">locations page</RouterLink> and contact us. We look forward to
-      serving you!
+      <RouterLink to="/locations" class="underline hover:text-[var(--accent)] transition-colors">
+        locations&nbsp;page
+      </RouterLink>
+      and contact us. We look forward to serving you!
     </p>
   </div>
 </template>
