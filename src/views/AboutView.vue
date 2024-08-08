@@ -1,5 +1,5 @@
 <template>
-  <div class="p-16 max-w-prose m-auto">
+  <div class="my-16 max-w-prose m-auto">
     <h1 class="text-4xl mb-4">About Us</h1>
 
     <h3 class="text-xl font-bold mt-4 mb-2">Welcome to Dry Clean Super Center!</h3>

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-16 max-w-prose m-auto">
+  <div class="my-16 max-w-prose m-auto">
     <h1 class="text-4xl mb-4">Our Services</h1>
 
     <p>
