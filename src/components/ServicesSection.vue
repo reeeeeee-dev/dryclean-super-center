@@ -13,7 +13,7 @@ const services = [
   {
     title: 'Wash, Dry, Fold Laundry Service',
     img: 'https://picsum.photos/200?seed=3',
-    link: '/'
+    link: '/laundry'
   },
   {
     title: 'Wedding & Formalwear',
