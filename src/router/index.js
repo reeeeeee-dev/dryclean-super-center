@@ -62,6 +62,11 @@ const router = createRouter({
       path: '/formalwear',
       name: 'Wedding & Formalwear',
       component: () => import('@/views/FormalwearView.vue')
+    },
+    {
+      path: '/bedding',
+      name: 'Bedding',
+      component: () => import('@/views/BeddingView.vue')
     }
   ]
 })

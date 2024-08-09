@@ -23,7 +23,7 @@ const services = [
   {
     title: 'Bedding',
     img: 'https://picsum.photos/200?seed=5',
-    link: '/'
+    link: '/bedding'
   },
   {
     title: 'Linens',
