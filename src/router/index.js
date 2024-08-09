@@ -67,6 +67,11 @@ const router = createRouter({
       path: '/bedding',
       name: 'Bedding',
       component: () => import('@/views/BeddingView.vue')
+    },
+    {
+      path: '/linens',
+      name: 'Linens',
+      component: () => import('@/views/LinensView.vue')
     }
   ]
 })
