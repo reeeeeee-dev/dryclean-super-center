@@ -38,7 +38,7 @@ const services = [
   {
     title: 'Uniforms & Lab Coats',
     img: 'https://picsum.photos/200?seed=8',
-    link: '/'
+    link: '/uniforms'
   }
 ]
 </script>
