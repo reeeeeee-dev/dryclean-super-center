@@ -1902,7 +1902,7 @@ magic-string@^0.30.10, magic-string@^0.30.5:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
 
-markdown-it@^13.0.1, markdown-it@^13.0.2:
+markdown-it@^13.0.1:
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-13.0.2.tgz#1bc22e23379a6952e5d56217fbed881e0c94d536"
   integrity sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==
@@ -2931,13 +2931,6 @@ vue-kinesis@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/vue-kinesis/-/vue-kinesis-2.0.5.tgz#48b68861d6dc50c256cd811fb5bad0203c439dea"
   integrity sha512-uO2lG9A/L4I9KvyJuUzAkAWqd37In/kWxQ6rZ3/heJZ8+7rHAbBO5Knz6xG+cpO+9Q4cYurxXsPfWM6e7X9E3Q==
-
-vue-markdown-render@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/vue-markdown-render/-/vue-markdown-render-2.2.1.tgz#c79016c1e546934fe71043139c8c9a3a3374ecdf"
-  integrity sha512-XkYnC0PMdbs6Vy6j/gZXSvCuOS0787Se5COwXlepRqiqPiunyCIeTPQAO2XnB4Yl04EOHXwLx5y6IuszMWSgyQ==
-  dependencies:
-    markdown-it "^13.0.2"
 
 vue-router@^4.3.3:
   version "4.4.0"
