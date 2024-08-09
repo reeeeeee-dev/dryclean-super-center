@@ -7,7 +7,7 @@ import FooterSection from '@/components/FooterSection.vue'
 <template>
   <HeaderComponent />
   <div
-    class="mask absolute top-0 left-0 w-screen -z-10 h-screen bg-[url('/iron.jpg')] bg-cover"
+    class="mask absolute top-0 left-0 w-full -z-10 h-screen bg-[url('/iron.jpg')] bg-cover"
     v-prlx.background="{ fromBottom: true }"
   />
   <router-view v-slot="{ Component }">
