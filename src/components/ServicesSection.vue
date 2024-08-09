@@ -33,7 +33,7 @@ const services = [
   {
     title: 'Shirts',
     img: 'https://picsum.photos/200?seed=7',
-    link: '/'
+    link: '/shirts'
   },
   {
     title: 'Uniforms & Lab Coats',
