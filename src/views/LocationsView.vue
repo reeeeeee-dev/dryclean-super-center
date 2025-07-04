@@ -7,7 +7,10 @@ const colliervilleMarker = {
 const southavenMarker = {
   position: { lat: 34.964451578835465, lng: -89.92062262709256 }
 }
-const midpoint = { lat: 35.00908555089262, lng: -89.80614784810165 }
+const memphisMarker = {
+  position: { lat: 35.05386861194079, lng: -90.02309186929537 }
+}
+const midpoint = { lat: 35.00908555089262, lng: -89.90614784810165 }
 </script>
 
 <template>
@@ -65,11 +68,33 @@ const midpoint = { lat: 35.00908555089262, lng: -89.80614784810165 }
       <div>TODO: Insert Photo</div>
     </div>
 
+    <hr class="border border-dashed border-[var(--secondary)] my-16" />
+
+    <div class="flex p-16">
+      <div class="flex flex-col gap-3">
+        <h3 class="text-3xl">Memphis</h3>
+        <a href="tel:6628938142" class="text-xl hover:underline hover:cursor-pointer">
+          (662) 893-8142
+        </a>
+        <p class="font-bold">
+          1215 Winchester Rd <br />
+          Memphis, TN 38116
+        </p>
+        <p>
+          Monday-Saturday: 7 AM to 6 PM
+          <br />
+          Sunday: Closed
+        </p>
+      </div>
+      <div>TODO: Insert Photo</div>
+    </div>
+
     <br class="my-16" />
 
     <GoogleMap class="h-96 w-full" :zoom="11" :center="midpoint" :api-key="MAPS_API_KEY">
       <Marker :options="colliervilleMarker" />
       <Marker :options="southavenMarker" />
+      <Marker :options="memphisMarker" />
     </GoogleMap>
   </div>
 </template>
