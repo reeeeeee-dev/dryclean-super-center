@@ -89,6 +89,22 @@ const midpoint = { lat: 35.00908555089262, lng: -89.90614784810165 }
       <div>TODO: Insert Photo</div>
     </div>
 
+    <hr class="border border-dashed border-[var(--secondary)] my-16" />
+
+    <div class="flex p-16">
+      <div class="flex flex-col gap-3">
+        <h3 class="text-3xl">Production Facility</h3>
+        <a href="tel:6628938142" class="text-xl hover:underline hover:cursor-pointer">
+          (662) 893-8142
+        </a>
+        <p class="font-bold">
+          3820 Delp St <br />
+          Memphis, TN 38118
+        </p>
+      </div>
+      <div>TODO: Insert Photo</div>
+    </div>
+
     <br class="my-16" />
 
     <GoogleMap class="h-96 w-full" :zoom="11" :center="midpoint" :api-key="MAPS_API_KEY">
