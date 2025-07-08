@@ -16,10 +16,10 @@ const midpoint = { lat: 35.00908555089262, lng: -89.90614784810165 }
 <template>
   <div class="m-16">
     <div class="mb-16">
-      <h1 class="text-7xl mb-4">Two Convenient Locations</h1>
+      <h1 class="text-7xl mb-4">Three Convenient Locations</h1>
       <p class="max-w-prose">
         At Dry Clean Super Center, we understand the importance of convenience in your busy life.
-        That’s why we offer two easily accessible locations in Memphis to serve you better. No
+        That’s why we offer three easily accessible locations in Memphis to serve you better. No
         matter where you are in the city, you’re never far from exceptional dry cleaning services.
       </p>
     </div>
